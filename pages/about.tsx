@@ -12,7 +12,7 @@ import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
 
 /* ---------------------------- Image Dependency ---------------------------- */
-import { Date, Github, Dribble, Product } from '../components/Icons';
+import { Date, Github, Codeforces, Product } from '../components/Icons';
 
 const About = () => {
   return (
@@ -99,7 +99,7 @@ const About = () => {
                 >
                   Design{' '}
                   <small>
-                    <Dribble />
+                    <Codeforces />
                   </small>
                 </a>
                 <a

@@ -9,12 +9,12 @@ import styled from 'styled-components';
 
 import {
   IconRight,
-  Twitter,
-  Facebook,
   Linkedin,
   Github,
   Instagram,
-  Dribble,
+  Codeforces,
+  Leetcode,
+  Codechef,
 } from '../Icons';
 
 /* ---------------------------- Style Dependency ---------------------------- */
@@ -42,7 +42,7 @@ const FooterLink: React.FC<IFooterLink &
         </Link>
       </FooterStyle>
       <SocialMedia>
-        <a
+        {/* <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://twitter.com/code_wonders"
@@ -59,12 +59,12 @@ const FooterLink: React.FC<IFooterLink &
           title="Facebook Page"
         >
           <Facebook />
-        </a>
+        </a> */}
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://linkedin.com/in/codewonders"
-          aria-label="Go To Adenekan Wonderful Linkedin Page"
+          href="https://www.linkedin.com/in/biraj-sanghai-iiitbh"
+          aria-label="Go To Biraj Sanghai Linkedin Page"
           title="Linkedin Page"
         >
           <Linkedin />
@@ -72,8 +72,8 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/adenekan41"
-          aria-label="Go To Adenekan Wonderful Github Page"
+          href="https://github.com/sanghaibiraj"
+          aria-label="Go To Biraj Sanghai Github Page"
           title="Github Page"
         >
           <Github />
@@ -81,17 +81,35 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://dribbble.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Dribble Page"
-          title="Dribbble Page"
+          href="https://codeforces.com/profile/biraj01"
+          aria-label="Go To Biraj Sanghai Codeforces Page"
+          title="Codeforces Page"
         >
-          <Dribble />
+          <Codeforces />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://instagram.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Instagram Page"
+          href="https://leetcode.com/u/sanghaibiraj/"
+          aria-label="Go To Biraj Sanghai Leetcode Page"
+          title="Leetcode Page"
+        >
+          <Leetcode />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.codechef.com/users/biraj01"
+          aria-label="Go To Biraj Sanghai Codechef Page"
+          title="Codechef Page"
+        >
+          <Codechef />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/its._biraj/"
+          aria-label="Go To Biraj Sanghai Instagram Page"
           title="Instagram Page"
         >
           <Instagram />
