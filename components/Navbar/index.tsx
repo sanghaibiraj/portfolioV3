@@ -9,7 +9,7 @@ import Link from '../ActiveLink';
 import AppContext from '../Utils/context';
 
 /* ---------------------------- Image Dependency ---------------------------- */
-import { Logo, Moon, Icon } from '../Icons';
+import { Logo, Logo2, Moon, Icon } from '../Icons';
 
 const Navbar = () => {
   const { show, handleopen, setTheme, closeShow, theme } = useContext(
@@ -24,10 +24,10 @@ const Navbar = () => {
             <Link
               href="/"
               className="navbar-brand"
-              aria-label="Adenekan Wonderful Home"
+              aria-label="Biraj Sanghai Home"
               tabIndex={show ? -1 : undefined}
             >
-              <Logo />
+              <Logo2 />
             </Link>
 
             <button
