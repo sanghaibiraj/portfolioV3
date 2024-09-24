@@ -30,7 +30,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Github Link"
-                  href="https://github.com/adenekan41"
+                  href="https://github.com/sanghaibiraj"
                 >
                   Engineering{' '}
                   <small>
@@ -42,7 +42,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Github Link"
                   id="cardHover"
-                  href="https://github.com/adenekan41"
+                  href="https://github.com/sanghaibiraj"
                   className="float-right"
                 >
                   View Github
@@ -89,71 +89,36 @@ const About = () => {
                   success at every stage.
                 </p>
               </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  href="https://dribbble.com/codewonders"
-                >
-                  Design{' '}
-                  <small>
-                    <Codeforces />
-                  </small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  id="cardHover"
-                  href="https://dribbble.com/codewonders"
-                  className="float-right"
-                >
-                  View Dribbble
-                </a>
-                <p>
-                  Despite not fitting the typical designer stereotype, my
-                  exceptional visual abilities enable me to excel as a
-                  presenter, effectively conveying design concepts to
-                  stakeholders and design teams. I possess a remarkable aptitude
-                  for conceptualization, allowing me to envision and bring forth
-                  stunning creations. Additionally, my expertise lies in
-                  fine-tuning stylesheets and crafting seamless user experiences
-                  that flow effortlessly.
-                </p>
-              </li>
             </ul>
           </article>
         </PageWrapper>
 
         <PageWrapper
           className="mb-5"
-          aria-label="You are now in my musical playlist section"
+          aria-label="You are now in my sports programming section"
         >
           <article>
-            <h4>My Reads.</h4>
+            <h4>Sports Programming.</h4>
             <ul className="timeline">
               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   id="cardHover"
-                  aria-label="Open Human Centered Design 101"
-                  href="https://www.plusacumen.org/courses/introduction-human-centered-design"
+                  aria-label="Open Codeforces Profile"
+                  href="https://codeforces.com/profile/biraj01"
                 >
-                  Human Centered Design 101. <small>Acumen</small>
+                  Codeforces (Expert, Highest Rating 1613).{' '}
                 </a>
-                <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2017 - 2018</b>
+                <a className="float-right" tabIndex={-1} href="https://codeforces.com/profile/biraj01">
+                   <b>biraj01</b>
                 </a>
                 <p>
-                  This is an intensive, hands-on learning experience that will
-                  challenge you to get out of your chair and out into the real
-                  world to talk to people and test your ideas. You’ll leave this
-                  experience equipped and energized to apply the human-centered
-                  design process to challenges across industries, sectors, and
-                  geographies to generate breakthrough ideas.
+                  Participated in over 60 contests and solved 400+ problems.
+                  Ranked 602 out of 63,837 participants (top 1%) in Codeforces
+                  Round 920 (Div. 3). This platform has helped me improve my
+                  ability to think under pressure and refine my algorithmic
+                  skills across diverse problem sets.
                 </p>
               </li>
               <li>
@@ -161,20 +126,20 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="cardHover"
-                  aria-label="Open Link Data Structure And Algorithm"
-                  href="https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/"
+                  aria-label="Open CodeChef Profile"
+                  href="https://www.codechef.com/users/biraj01"
                 >
-                  Data Structure And Algorithm. <small>Udemy</small>
+                  CodeChef (4-star, Highest Rating 1897).{' '}
                 </a>
-                <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2019</b>
+                <a className="float-right" tabIndex={-1} href="https://www.codechef.com/users/biraj01">
+                   <b>biraj01</b>
                 </a>
                 <p>
-                  Many developers who are &quot;self taught&quot;, feel that one
-                  of the main disadvantages they face compared to college
-                  educated graduates in computer science is the fact that they
-                  don&apos;t have knowledge about algorithms, data structures
-                  and the notorious Big-O Notation
+                  Engaged in over 40 contests and tackled more than 500
+                  problems. Achieved a rank of 44 out of 2,244 competitors (top
+                  2%) in the CodeChef Starters 123 Division 2 Contest. My
+                  journey on CodeChef has been instrumental in building and
+                  strengthening my problem-solving foundation.
                 </p>
               </li>
               <li>
@@ -182,21 +147,20 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="cardHover"
-                  aria-label="Open Link Adaptive Leadership"
-                  href="https://www.edx.org/course/adaptive-leadership-in-development"
+                  aria-label="Open LeetCode Profile"
+                  href="https://leetcode.com/sanghaibiraj"
                 >
-                  Adaptive Leadership. <small>edX</small>
+                  LeetCode (Knight, Top 6%, Maximum Rating 1867).{' '}
                 </a>
-                <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2019</b>
+                <a className="float-right" tabIndex={-1}  href="https://leetcode.com/sanghaibiraj">
+                   <b>sanghaibiraj</b>
                 </a>
                 <p>
-                  This introductory course helps you identify and make progress
-                  on a leadership challenge in your own life, team, or
-                  community. You’ll apply the tools and techniques of Adaptive
-                  Leadership, a practical framework developed at Harvard Kennedy
-                  School of Government for leading change, particularly during
-                  times of uncertainty or when there are no easy answers.{' '}
+                  Solved 200+ challenges of varying complexities. Ranked 771 out
+                  of 36,727 participants (top 2.1%) in one of the best contest
+                  performances. LeetCode has allowed me to continuously sharpen
+                  my algorithmic thinking while tackling real-world coding
+                  problems.
                 </p>
               </li>
               <li>
@@ -204,173 +168,20 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="cardHover"
-                  aria-label="Open Link Learning to Learn [Efficient Learning] "
-                  href="https://www.udemy.com/course/learning-to-learn-efficient-learning-zero-to-mastery/"
+                  aria-label="Open AtCoder Profile"
+                  href="https://atcoder.jp/users/biraj01"
                 >
-                  Learning to Learn [Efficient Learning] <small>udemy</small>
+                  AtCoder (Green, 6Kyu, Rating 979).
                 </a>
-                <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2020</b>
+                <a className="float-right" tabIndex={-1} href="https://atcoder.jp/users/biraj01">
+                  <b>biraj01</b>
                 </a>
                 <p>
-                  Improve memory & productivity using the skills of the world's
-                  top performers and learning strategies proven by research.
-                </p>
-              </li>
-              <li>
-                <Link
-                  href="/articles"
-                  aria-label="Check my articles and recent reads"
-                  id="cardHover"
-                >
-                  Learning Something Great 😉
-                </Link>
-                <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>Currently</b>
-                </a>
-                <p>We continue learning everyday. </p>
-              </li>
-            </ul>
-          </article>
-        </PageWrapper>
-
-        <PageWrapper
-          className="mb-5"
-          aria-label="You are now in my musical playlist section"
-        >
-          <article>
-            <h4>My Playlist.</h4>
-            <ul className="timeline">
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Codewonders Spotify Playlist"
-                  href="https://open.spotify.com/playlist/2EH5NURI9OzRsMOFOGL70V"
-                >
-                  Codewonders. <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  id="cardHover"
-                  rel="noopener noreferrer"
-                  aria-label="Open Lofii Playlist"
-                  href="https://open.spotify.com/playlist/2EH5NURI9OzRsMOFOGL70V"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>
-                  This is an intensive, energizing songs list that helps me
-                  through the day and inspires generate breakthrough ideas.
-                </p>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
-                >
-                  Chill Lofi Study Beats <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>
-                  The perfect study beats, twenty four seven. with over 178
-                  SONGS
-                </p>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
-                >
-                  Mellow Drive <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>Easy listening for pleasant drive</p>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
-                >
-                  Rap UK <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>One of the finest rap in UK. Cover: Aitch</p>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w"
-                >
-                  Mood Booster 🎅🏽 <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>Get happy with today's dose of feel-good songs!</p>
-              </li>
-            </ul>
-          </article>
-        </PageWrapper>
-
-        <PageWrapper aria-label="You are now in lens section">
-          <article>
-            <h4>My Photochromic Lens.</h4>
-            <ul className="timeline">
-              <li>
-                <Link href="/lens">
-                  Adenekan's Collection. <small>©Adenekan</small>
-                </Link>
-                <Link href="/lens" className="float-right" id="cardHover">
-                  Visit Page
-                </Link>
-                <p>
-                  This is an intensive, curation of the photochromic lenses that
-                  standout and the ones that i personally love, NOTE this is
-                  just by preference actually.
+                  Participating in contests on AtCoder has further honed my
+                  skills by challenging my ability to come up with efficient and
+                  optimized solutions in a high-pressure environment.
+                  Consistently working towards improving my rating and ranking
+                  across this platform.
                 </p>
               </li>
             </ul>

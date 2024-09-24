@@ -37,20 +37,17 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           {this.props.styleTags}
-          <meta name="author" content="Adenekan Wonderful" />
-          <meta
-            name="keywords"
-            content="Adenekan Wonderful, codewonders, codewonders.dev, codewonders.us, affinity developer."
-          />
+          <meta name="author" content="Biraj Sanghai" />
+          <meta name="keywords" content="Biraj Sanghai, affinity developer." />
           <meta property="og:locale" content="en-US" />
           <meta property="og:type" content="website" />
           <meta
             name="description"
-            content="Hi, I&#x27;m Adenekan Wonderful, Frontend developer, UX architect, and JavaScript engineer."
+            content="Hi, I&#x27;m Biraj Sanghai, Frontend developer, and Programmer."
           />
           <meta
             property="og:description"
-            content="Hi, I&#x27;m Adenekan Wonderful, Frontend developer, UX architect, and JavaScript engineer."
+            content="Hi, I&#x27;m Biraj Sanghai, Frontend developer, and Programmer."
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="mobile-web-app-capable" content="yes" />
