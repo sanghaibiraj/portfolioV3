@@ -12,7 +12,7 @@ import { ScoutBar } from 'scoutbar';
 /* -------------------------- Internal Dependencies ------------------------- */
 import Navbar from '../Navbar';
 import AppContext from '../Utils/context';
-import { initGA, logPageView } from '../Utils/analytics';
+import { logPageView } from '../Utils/analytics';
 import Cursor from '../Cursor';
 import SkipToMain from '../A11y/skip-to-main';
 
@@ -27,7 +27,6 @@ const Layout: React.FC<PropsWithChildren<{
   const [skew, setSkew] = useState(10);
   const logPage = () => {
     if (!(window as any).GA_INITIALIZED) {
-      initGA();
       (window as any).GA_INITIALIZED = true;
     }
     logPageView();
@@ -53,7 +52,7 @@ const Layout: React.FC<PropsWithChildren<{
       <Navbar />
       <BackLay title={title}>
         <h1 aria-hidden="true">
-          {title === 'Home' ? 'CW.' : title.concat('.')}
+          {title === 'Home' ? 'BIRAJ01' : title.concat('.')}
         </h1>
       </BackLay>
       <Cursor />
