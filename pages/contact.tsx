@@ -19,13 +19,37 @@ const Contact = () => {
           <article>
             <p>
               Get in touch or shoot me an email directly on{' '}
-              <b>hellocodewonders@gmail.com</b>
+              <b>sanghaibiraj@gmail.com</b>
             </p>
           </article>
           <br />
           <form
-            method="POST"
-            action="https://formspree.io/adenekanwonderful41@gmail.com"
+            onSubmit={(e) => {
+              e.preventDefault();
+
+              // Get the elements
+              const nameElement = document.getElementById(
+                'name'
+              ) as HTMLInputElement | null;
+              const emailElement = document.getElementById(
+                'email'
+              ) as HTMLInputElement | null;
+              const messageElement = document.getElementById(
+                'message'
+              ) as HTMLTextAreaElement | null;
+
+              // Ensure none of them are null
+              if (nameElement && emailElement && messageElement) {
+                const name = nameElement.value;
+                const email = emailElement.value;
+                const message = messageElement.value;
+
+                const mailtoLink = `mailto:sanghaibiraj@gmail.com?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0AMessage: ${message}`;
+                window.location.href = mailtoLink;
+              } else {
+                console.error('Form elements not found.');
+              }
+            }}
           >
             <div className="fields">
               <div className="field half">
