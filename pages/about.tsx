@@ -110,8 +110,12 @@ const About = () => {
                 >
                   Codeforces (Expert, Highest Rating 1613).{' '}
                 </a>
-                <a className="float-right" tabIndex={-1} href="https://codeforces.com/profile/biraj01">
-                   <b>biraj01</b>
+                <a
+                  className="float-right"
+                  tabIndex={-1}
+                  href="https://codeforces.com/profile/biraj01"
+                >
+                  <b>biraj01</b>
                 </a>
                 <p>
                   Participated in over 60 contests and solved 400+ problems.
@@ -131,8 +135,12 @@ const About = () => {
                 >
                   CodeChef (4-star, Highest Rating 1897).{' '}
                 </a>
-                <a className="float-right" tabIndex={-1} href="https://www.codechef.com/users/biraj01">
-                   <b>biraj01</b>
+                <a
+                  className="float-right"
+                  tabIndex={-1}
+                  href="https://www.codechef.com/users/biraj01"
+                >
+                  <b>biraj01</b>
                 </a>
                 <p>
                   Engaged in over 40 contests and tackled more than 500
@@ -152,8 +160,12 @@ const About = () => {
                 >
                   LeetCode (Knight, Top 6%, Maximum Rating 1867).{' '}
                 </a>
-                <a className="float-right" tabIndex={-1}  href="https://leetcode.com/sanghaibiraj">
-                   <b>sanghaibiraj</b>
+                <a
+                  className="float-right"
+                  tabIndex={-1}
+                  href="https://leetcode.com/sanghaibiraj"
+                >
+                  <b>sanghaibiraj</b>
                 </a>
                 <p>
                   Solved 200+ challenges of varying complexities. Ranked 771 out
@@ -173,7 +185,11 @@ const About = () => {
                 >
                   AtCoder (Green, 6Kyu, Rating 979).
                 </a>
-                <a className="float-right" tabIndex={-1} href="https://atcoder.jp/users/biraj01">
+                <a
+                  className="float-right"
+                  tabIndex={-1}
+                  href="https://atcoder.jp/users/biraj01"
+                >
                   <b>biraj01</b>
                 </a>
                 <p>
@@ -182,6 +198,79 @@ const About = () => {
                   optimized solutions in a high-pressure environment.
                   Consistently working towards improving my rating and ranking
                   across this platform.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </PageWrapper>
+
+        <PageWrapper
+          className="mb-5"
+          aria-label="You are now in my achievements section"
+        >
+          <article>
+            <h4>Achievements.</h4>
+            <ul className="timeline">
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="cardHover"
+                  aria-label="Open ICPC Regional Contest Page"
+                  href=""
+                >
+                  The 2023 ICPC Asia Amritapuri Doublesite Regional Contest.
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <b>Nov 2023 - Jan 2024</b>
+                </a>
+                <p>
+                  Secured qualification for the ICPC regional round with a
+                  commendable top 650 rank in the preliminary round, earning the
+                  first rank in college. Achieved an impressive 135th position
+                  among the top 250 selected teams in the Amritapuri regional
+                  round.
+                </p>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="cardHover"
+                  aria-label="Open Codeyudh Contest Page"
+                  href=""
+                >
+                  Codeyudh 1.0 Contest.
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <b>April 2024</b>
+                </a>
+                <p>
+                  Earned champion status (rank 1) by winning four successive
+                  head-to-head competitive programming matchups. Qualified from
+                  an initial round with 150+ participants to the top 16,
+                  eventually securing the title.
+                </p>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="cardHover"
+                  aria-label="Open PyC Contest Page"
+                  href=""
+                >
+                  TMLE Busters Contest (Organized by PyC Coding Club, IIIT
+                  Bhagalpur).
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <b>October 2023</b>
+                </a>
+                <p>
+                  Ranked 1st in the TMLE Busters contest, demonstrating
+                  exceptional problem-solving skills and competitive programming
+                  expertise, leading the leaderboard with a flawless
+                  performance.
                 </p>
               </li>
             </ul>
