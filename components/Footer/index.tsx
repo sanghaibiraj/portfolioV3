@@ -115,6 +115,7 @@ const FooterLink: React.FC<IFooterLink &
           <Instagram />
         </a>
       </SocialMedia>
+      <p>Inspired by <a href="https://github.com/adenekan41"> Adenekan Wonderful </a>. Coded in Visual Studio Code. </p>
     </>
   );
 };

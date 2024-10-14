@@ -13,8 +13,8 @@ import FooterLink from '../components/Footer';
 
 const Resume = () => {
   const resumeData =
-    'https://www.canva.com/design/DAEEkidwA2Q/view?utm_content=DAEEkidwA2Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink';
-
+    'https://ik.imagekit.io/h7f3y1fnx/Portfolio_Projects/BirajSanghai_CPResume_27Sep.pdf?updatedAt=1728897021325';
+    // https://ik.imagekit.io/h7f3y1fnx/Portfolio_Projects/BirajSanghai_CPResume_27Sep.pdf?updatedAt=1728897021325
   const previewData = `${resumeData.substr(
     0,
     resumeData.lastIndexOf('/') + 1
@@ -31,7 +31,7 @@ const Resume = () => {
               <b>
                 <Link href="/contact">contact page</Link>
               </b>{' '}
-              .{' '}
+              {/* .{' '}
               <b>
                 <a
                   href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_LINK}/view?usp=sharing`}
@@ -53,16 +53,16 @@ const Resume = () => {
                   download
                 </a>
               </b>{' '}
-              the resume{' '}
+              the resume{' '} */}
             </p>
           </article>
           <br />
           <iframe
-            src={previewData}
+            src={resumeData}
             allowFullScreen
             width="740"
             height="780"
-            title="Adenekan Wonderful Resumé"
+            title="Biraj Sanghai Resumé"
           />
         </PageSection>
         <br />

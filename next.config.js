@@ -2,7 +2,7 @@
 
 module.exports = {
   images: {
-    domains: ['i.ibb.co'],
+    domains: ['i.ibb.co', 'drive.google.com', 'ik.imagekit.io'],
   },
   output: 'standalone',
   reactStrictMode: false,
