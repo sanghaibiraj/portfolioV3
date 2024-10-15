@@ -1,12 +1,12 @@
 <p align="center">
-<img src="https://codewonders.dev/icons/favicon-96x96.png"/>
+<img src="https://ik.imagekit.io/h7f3y1fnx/Portfolio_Projects/favicon.png?updatedAt=1728991931775"/>
     
-<h1 align="center"><a href="https://codewonders.dev">Adenekan Wonderful</a></h1>
-<p align="center"> Frontend developer and Javascript engineer</p>
+<h1 align="center"><a href="https://github.com/sanghaibiraj/">Biraj Sanghai</a></h1>
+<p align="center"> Frontend developer and engineer</p>
 
 </p>
 
-<img src="https://i.ibb.co/NS0S4XR/image.png"/>
+<img src="https://ik.imagekit.io/h7f3y1fnx/Portfolio_Projects/portfolio.png?updatedAt=1728992059130"/>
 
 ## Running locally in development mode
 
