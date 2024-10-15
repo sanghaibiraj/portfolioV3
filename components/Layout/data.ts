@@ -28,31 +28,31 @@ export const actions = (theme: () => void) => [
   }),
 
   createScoutSection({
-    label: 'About Adenekan Wonderful',
+    label: 'About Biraj Sanghai',
 
     children: [
       createScoutAction({
-        label: 'About Adenekan Wonderful',
+        label: 'About Biraj Sanghai',
         href: '/about',
         keyboardShortcut: ['a'],
       }),
-      createScoutAction({
-        label: "Adenekan Wonderful's Reads",
-        href: '/about#reads',
-      }),
-      createScoutAction({
-        label: 'Playlist',
-        href: '/about#playlist',
-      }),
-      createScoutAction({
-        label: "Adenekan's Lens",
-        href: '/about#lens',
-      }),
+      // createScoutAction({
+      //   label: "Biraj's Achievements",
+      //   href: '/about#achievements',
+      // }),
+      // createScoutAction({
+      //   label: 'Playlist',
+      //   href: '/about#playlist',
+      // }),
+      // createScoutAction({
+      //   label: "Adenekan's Lens",
+      //   href: '/about#lens',
+      // }),
     ],
   }),
 
   createScoutSection({
-    label: 'BY Codewonders',
+    label: 'BY Biraj01',
 
     children: [
       createScoutPage({
@@ -66,28 +66,28 @@ export const actions = (theme: () => void) => [
           })
         ),
       }),
-      createScoutPage({
-        label: 'Lens',
-        children: LENS_DATA.map((project) =>
-          createScoutAction({
-            label: project.title,
-            href: project.link,
-            description: project.description,
-            icon: project.imageUrl,
-          })
-        ),
-      }),
-      createScoutPage({
-        label: 'Articles',
-        children: ARTICLE_DATA.map((project) =>
-          createScoutAction({
-            label: project.title,
-            href: project.link,
-            description: project.description,
-            icon: project.imageUrl,
-          })
-        ),
-      }),
+      // createScoutPage({
+      //   label: 'Lens',
+      //   children: LENS_DATA.map((project) =>
+      //     createScoutAction({
+      //       label: project.title,
+      //       href: project.link,
+      //       description: project.description,
+      //       icon: project.imageUrl,
+      //     })
+      //   ),
+      // }),
+      // createScoutPage({
+      //   label: 'Articles',
+      //   children: ARTICLE_DATA.map((project) =>
+      //     createScoutAction({
+      //       label: project.title,
+      //       href: project.link,
+      //       description: project.description,
+      //       icon: project.imageUrl,
+      //     })
+      //   ),
+      // }),
     ],
   }),
 

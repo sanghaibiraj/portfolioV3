@@ -96,6 +96,7 @@ const About = () => {
         <PageWrapper
           className="mb-5"
           aria-label="You are now in my sports programming section"
+          id='achievements'
         >
           <article>
             <h4>Sports Programming.</h4>
