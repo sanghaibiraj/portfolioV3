@@ -1,11 +1,11 @@
 {
-  "name": "codewonders",
+  "name": "biraj-sanghai",
   "version": "1.5.0",
   "private": false,
   "license": "MIT",
   "repository": "",
-  "description": "Adenekan Wonderful's Website",
-  "author": "Adenekan Wonderful <hellocodewonders@gmail.com> (https://codewonders.dev)",
+  "description": "Biraj Sanghai's Website",
+  "author": "Biraj Sanghai <sanghaibiraj@gmail.com> (https://biraj-sanghai.vercel.app/)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
