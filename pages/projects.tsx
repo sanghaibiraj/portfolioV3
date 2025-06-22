@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-
 import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
 import Tabs, { TabItems } from '../components/Tabs';

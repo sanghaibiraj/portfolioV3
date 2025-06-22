@@ -1,13 +1,33 @@
-// const withPWA = require('next-pwa');
-
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    domains: ['i.ibb.co', 'drive.google.com', 'ik.imagekit.io'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+      },
+      {
+        protocol: 'https',
+        hostname: 'drive.google.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ik.imagekit.io',
+      },
+    ],
   },
   output: 'standalone',
-  reactStrictMode: false,
+  reactStrictMode: true,
   swcMinify: true,
   typescript: {
     tsconfigPath: 'tsconfig.json',
   },
+  experimental: {
+    // Any experimental features you want to enable
+  },
+  compiler: {
+    styledComponents: true,
+  },
 };
+
+module.exports = nextConfig;
