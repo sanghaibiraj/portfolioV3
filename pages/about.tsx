@@ -1,17 +1,9 @@
-/* eslint-disable jsx-a11y/accessible-emoji */
 
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
-
-/* ---------------------------- Image Dependency ---------------------------- */
 import { Date, Github, Codeforces, Product } from '../components/Icons';
 
 const About = () => {

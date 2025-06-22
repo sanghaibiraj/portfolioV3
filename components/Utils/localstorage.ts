@@ -1,4 +1,4 @@
-const STATE = 'CODE_WONDERS';
+const STATE = 'BIRAJ_SANGHAI';
 export const loadState = () => {
   try {
     const serializedState = localStorage.getItem(STATE);
@@ -11,10 +11,6 @@ export const loadState = () => {
   }
 };
 
-/**
- * Save Localstorage state
- * @param {String} state
- */
 export const saveState = (state: any) => {
   try {
     const serializedState = JSON.stringify(state);
@@ -24,10 +20,6 @@ export const saveState = (state: any) => {
   }
 };
 
-/**
- * Clear Localstorage state
- * @param {String} state
- */
 export const clearState = () => {
   try {
     localStorage.removeItem(STATE);

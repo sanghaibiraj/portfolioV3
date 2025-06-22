@@ -1,6 +1,3 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependecies                            */
-/* -------------------------------------------------------------------------- */
 import React, {
   PropsWithChildren,
   useContext,
@@ -9,10 +6,8 @@ import React, {
 } from 'react';
 import { ScoutBar } from 'scoutbar';
 
-/* -------------------------- Internal Dependencies ------------------------- */
 import Navbar from '../Navbar';
 import AppContext from '../Utils/context';
-import { logPageView } from '../Utils/analytics';
 import Cursor from '../Cursor';
 import SkipToMain from '../A11y/skip-to-main';
 
@@ -29,7 +24,6 @@ const Layout: React.FC<PropsWithChildren<{
     if (!(window as any).GA_INITIALIZED) {
       (window as any).GA_INITIALIZED = true;
     }
-    logPageView();
   };
 
   useEffect(() => {

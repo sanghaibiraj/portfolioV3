@@ -1,13 +1,5 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-
 import App from 'next/app';
-import React from 'react';
 import { PageTransition } from 'next-page-transitions';
-
-/* -------------------------- Internal Dependecies -------------------------- */
-
 import AppContext from '../components/Utils/context';
 import {
   loadState,

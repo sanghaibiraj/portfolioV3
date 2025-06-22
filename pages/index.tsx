@@ -1,14 +1,8 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { arrayRandomItem } from 'codewonders-helpers';
 import { motion } from 'framer-motion';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 
 import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
@@ -31,25 +25,25 @@ const Home = () => {
               <mark className="mark">I&apos;m Biraj Sanghai</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
-            Someone who finds beauty in simplicity and precision. As a competitive programmer, I enjoy tackling complex problems on various platforms like 
-            <Link href="https://codeforces.com/profile/biraj01" aria-label="Go to Codeforces Profile">
-             {" "}Codeforces{" "}
-            </Link>
-             and
-            <Link href="https://www.codechef.com/users/biraj01" aria-label="Go to Codechef Profile">
-            {" "}CodeChef{" "}
-            </Link>
-            , always aiming for efficient and streamlined solutions. 
-            <br />
-            Whether it's optimizing algorithms or developing clean, functional web and 
-            <Link href="/projects" aria-label="Go to Projects Page">
-            {" "}Projects {" "}
+              Someone who finds beauty in simplicity and precision. As a competitive programmer, I enjoy tackling complex problems on various platforms like
+              <Link href="https://codeforces.com/profile/biraj01" aria-label="Go to Codeforces Profile">
+                {" "}Codeforces{" "}
               </Link>
-            , I focus on making every detail count. If you're looking for someone with a passion for problem-solving and simplicity, feel free to 
-            <Link href="/contact" aria-label="Go to Contact Page">
-            {" "} Contact Me{" "}
+              and
+              <Link href="https://www.codechef.com/users/biraj01" aria-label="Go to Codechef Profile">
+                {" "}CodeChef{" "}
               </Link>
-            !
+              , always aiming for efficient and streamlined solutions.
+              <br />
+              Whether it's optimizing algorithms or developing clean, functional web and
+              <Link href="/projects" aria-label="Go to Projects Page">
+                {" "}Projects {" "}
+              </Link>
+              , I focus on making every detail count. If you're looking for someone with a passion for problem-solving and simplicity, feel free to
+              <Link href="/contact" aria-label="Go to Contact Page">
+                {" "} Contact Me{" "}
+              </Link>
+
             </motion.p>
           </article>
 

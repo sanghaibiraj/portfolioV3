@@ -42,24 +42,6 @@ const FooterLink: React.FC<IFooterLink &
         </Link>
       </FooterStyle>
       <SocialMedia>
-        {/* <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/code_wonders"
-          aria-label="Go To Adenekan Wonderful Twitter Page"
-          title="Twitter Page"
-        >
-          <Twitter />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.facebook.com/AdenekanWonderful"
-          aria-label="Go To Adenekan Wonderful Facebook Page"
-          title="Facebook Page"
-        >
-          <Facebook />
-        </a> */}
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -115,7 +97,6 @@ const FooterLink: React.FC<IFooterLink &
           <Instagram />
         </a>
       </SocialMedia>
-      <p>Inspired by <a href="https://github.com/adenekan41"> Adenekan Wonderful </a>. Coded in Visual Studio Code. </p>
     </>
   );
 };
