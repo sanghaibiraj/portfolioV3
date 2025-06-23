@@ -40,18 +40,7 @@ const About = () => {
                   View Github
                 </a>
                 <p>
-                  The power of first impressions cannot be underestimated, and
-                  the gateway to capitalizing on them lies in exceptional
-                  website design. An outstanding website transcends mere
-                  aesthetics and extends its influence to encompass seamless
-                  functionality and user-friendly navigation. Drawing upon my
-                  expertise as a seasoned programmer, I possess the unique
-                  ability to tackle intricate technical challenges while
-                  crafting websites that exude sleekness and visual allure.
-                  Moreover, my extensive knowledge of recognized technical
-                  standards is complemented by my proficiency in modern building
-                  practices, ensuring that every aspect of your website is
-                  finely tuned to perfection.
+                  The power of first impressions cannot be underestimated, and the gateway to capitalizing on them lies in exceptional website design. An outstanding website transcends mere aesthetics and extends its influence to encompass seamless functionality and user-friendly navigation. Drawing upon my expertise as a seasoned programmer, I possess the unique ability to tackle intricate technical challenges while crafting websites that exude sleekness and visual allure. Moreover, my extensive knowledge of recognized technical standards is complemented by my proficiency in modern building practices, ensuring that every aspect of your website is finely tuned to perfection.
                 </p>
               </li>
               <li>
@@ -70,15 +59,7 @@ const About = () => {
                   View Products
                 </Link>
                 <p>
-                  While I may not fit the conventional mold of a product
-                  manager, my diverse skill set in research, product design, and
-                  product coordination empowers me to drive the growth of a
-                  product from its inception. As an exceptional analytical
-                  thinker, I possess the ability to uphold the product's vision
-                  throughout its entire journey, effectively bridging the
-                  technical and product aspects. By leveraging my expertise, I
-                  can navigate the path from 0 to 1, ensuring the product's
-                  success at every stage.
+                  While I may not fit the conventional mold of a product manager, my diverse skill set in research, product design, and product coordination empowers me to drive the growth of a product from its inception. As an exceptional analytical thinker, I possess the ability to uphold the product's vision throughout its entire journey, effectively bridging the technical and product aspects. By leveraging my expertise, I can navigate the path from 0 to 1, ensuring the product's success at every stage.
                 </p>
               </li>
             </ul>
@@ -101,7 +82,7 @@ const About = () => {
                   aria-label="Open Codeforces Profile"
                   href="https://codeforces.com/profile/biraj01"
                 >
-                  Codeforces (Expert, Highest Rating 1613).{' '}
+                  Codeforces (Expert, Highest Rating 1643).{' '}
                 </a>
                 <a
                   className="float-right"
@@ -111,11 +92,7 @@ const About = () => {
                   <b>biraj01</b>
                 </a>
                 <p>
-                  Participated in over 60 contests and solved 400+ problems.
-                  Ranked 602 out of 63,837 participants (top 1%) in Codeforces
-                  Round 920 (Div. 3). This platform has helped me improve my
-                  ability to think under pressure and refine my algorithmic
-                  skills across diverse problem sets.
+                  Participated in over 60 contests and solved 400+ problems. Ranked 602 out of 63,837 participants (top 1%) in Codeforces Round 920 (Div. 3). This platform has helped me improve my ability to think under pressure and refine my algorithmic skills across diverse problem sets.
                 </p>
               </li>
               <li>
@@ -126,7 +103,7 @@ const About = () => {
                   aria-label="Open CodeChef Profile"
                   href="https://www.codechef.com/users/biraj01"
                 >
-                  CodeChef (4-star, Highest Rating 1897).{' '}
+                  CodeChef (5-star, Highest Rating 2035).{' '}
                 </a>
                 <a
                   className="float-right"
@@ -136,11 +113,7 @@ const About = () => {
                   <b>biraj01</b>
                 </a>
                 <p>
-                  Engaged in over 40 contests and tackled more than 500
-                  problems. Achieved a rank of 44 out of 2,244 competitors (top
-                  2%) in the CodeChef Starters 123 Division 2 Contest. My
-                  journey on CodeChef has been instrumental in building and
-                  strengthening my problem-solving foundation.
+                  Engaged in over 40 contests and tackled more than 500 problems. Achieved a rank of 44 out of 2,244 competitors (top 2%) in the CodeChef Starters 123 Division 2 Contest. My journey on CodeChef has been instrumental in building and strengthening my problem-solving foundation.
                 </p>
               </li>
               <li>
@@ -151,7 +124,7 @@ const About = () => {
                   aria-label="Open LeetCode Profile"
                   href="https://leetcode.com/sanghaibiraj"
                 >
-                  LeetCode (Knight, Top 6%, Maximum Rating 1867).{' '}
+                  LeetCode (Guardian, Top 1.5%, Maximum Rating 2157).{' '}
                 </a>
                 <a
                   className="float-right"
@@ -161,11 +134,7 @@ const About = () => {
                   <b>sanghaibiraj</b>
                 </a>
                 <p>
-                  Solved 200+ challenges of varying complexities. Ranked 771 out
-                  of 36,727 participants (top 2.1%) in one of the best contest
-                  performances. LeetCode has allowed me to continuously sharpen
-                  my algorithmic thinking while tackling real-world coding
-                  problems.
+                  Solved 750+ challenges of varying complexities. Ranked 318 out of 36,727 participants (top 1%) in Leetcode Weekly Contest 442 is one of the best contest performances. LeetCode has allowed me to continuously sharpen my algorithmic thinking while tackling real-world coding problems.
                 </p>
               </li>
               <li>
@@ -176,7 +145,7 @@ const About = () => {
                   aria-label="Open AtCoder Profile"
                   href="https://atcoder.jp/users/biraj01"
                 >
-                  AtCoder (Green, 6Kyu, Rating 979).
+                  AtCoder (Green, 5Kyu, Rating 1056).
                 </a>
                 <a
                   className="float-right"
@@ -186,11 +155,7 @@ const About = () => {
                   <b>biraj01</b>
                 </a>
                 <p>
-                  Participating in contests on AtCoder has further honed my
-                  skills by challenging my ability to come up with efficient and
-                  optimized solutions in a high-pressure environment.
-                  Consistently working towards improving my rating and ranking
-                  across this platform.
+                  Participating in contests on AtCoder has further honed my skills by challenging my ability to come up with efficient and optimized solutions in a high-pressure environment. Consistently working towards improving my rating and ranking across this platform.
                 </p>
               </li>
             </ul>
@@ -218,11 +183,7 @@ const About = () => {
                   <b>Nov 2023 - Jan 2024</b>
                 </a>
                 <p>
-                  Secured qualification for the ICPC regional round with a
-                  commendable top 650 rank in the preliminary round, earning the
-                  first rank in college. Achieved an impressive 135th position
-                  among the top 250 selected teams in the Amritapuri regional
-                  round.
+                  Secured qualification for the ICPC regional round with a commendable top 650 rank in the preliminary round, earning the first rank in college. Achieved an impressive 135th position among the top 250 selected teams in the Amritapuri regional round.
                 </p>
               </li>
               <li>
@@ -239,10 +200,7 @@ const About = () => {
                   <b>April 2024</b>
                 </a>
                 <p>
-                  Earned champion status (rank 1) by winning four successive
-                  head-to-head competitive programming matchups. Qualified from
-                  an initial round with 150+ participants to the top 16,
-                  eventually securing the title.
+                  Earned champion status (rank 1) by winning four successive head-to-head competitive programming matchups. Qualified from an initial round with 150+ participants to the top 16, eventually securing the title.
                 </p>
               </li>
               <li>
@@ -260,10 +218,7 @@ const About = () => {
                   <b>October 2023</b>
                 </a>
                 <p>
-                  Ranked 1st in the TMLE Busters contest, demonstrating
-                  exceptional problem-solving skills and competitive programming
-                  expertise, leading the leaderboard with a flawless
-                  performance.
+                  Ranked 1st in the TMLE Busters contest, demonstrating exceptional problem-solving skills and competitive programming expertise, leading the leaderboard with a flawless performance.
                 </p>
               </li>
             </ul>
