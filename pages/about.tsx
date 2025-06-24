@@ -227,8 +227,8 @@ const About = () => {
       </PageSection>
 
       <PageWrapper>
-        <FooterLink goto="/projects" className="mt-3 mb-5">
-          Lets Continue To Projects
+        <FooterLink goto="/education" className="mt-3 mb-5">
+          Lets Continue To My Education.
         </FooterLink>
         <br />
       </PageWrapper>

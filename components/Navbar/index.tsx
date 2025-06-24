@@ -1,15 +1,8 @@
-/* -------------------------------------------------------------------------- */
-/*                             External Dependency                            */
-/* -------------------------------------------------------------------------- */
 import React, { useContext } from 'react';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import { Header } from '../Layout/style';
 import Link from '../ActiveLink';
 import AppContext from '../Utils/context';
-
-/* ---------------------------- Image Dependency ---------------------------- */
-import { Logo, Logo2, Moon, Icon } from '../Icons';
+import { Logo2, Moon, Icon } from '../Icons';
 
 const Navbar = () => {
   const { show, handleopen, setTheme, closeShow, theme } = useContext(
@@ -77,6 +70,19 @@ const Navbar = () => {
                     title="About"
                   >
                     About
+                  </Link>
+                </li>
+                <li className="nav-item hover__bottom">
+                  <Link
+                    href="/education"
+                    activeClassName="is-active"
+                    className="nav-link"
+                    id="cardHover"
+                    onClick={closeShow}
+                    aria-label="Go To Education Page"
+                    title="Education"
+                  >
+                    Education
                   </Link>
                 </li>
                 <li className="nav-item hover__bottom">
